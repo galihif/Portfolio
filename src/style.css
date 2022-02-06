@@ -1,14 +1,12 @@
 html {
   --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    to left,
+    #010124, #010124e8
   );
 
   --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    to left,
+    #010124, #010124e8
   );
 
   --imp-text-color: white;
@@ -551,7 +549,7 @@ html {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid white !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
