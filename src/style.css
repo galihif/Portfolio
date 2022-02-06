@@ -191,7 +191,7 @@ html {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: white;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -723,7 +723,8 @@ html {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: transparent !important;
+  border-color: white !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -731,8 +732,8 @@ html {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #010124 !important;
+  border-color: #010124 !important;
 }
 .fork-btn-inner::after {
   display: none !important;
