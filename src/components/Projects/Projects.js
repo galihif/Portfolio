@@ -3,12 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import taskmaster from "../../Assets/Projects/taskmaster.png";
+import meraihMimpi from "../../Assets/Projects/meraih-mimpi.png";
+import mbolang from "../../Assets/Projects/mbolang.png";
+import covid from "../../Assets/Projects/covid.png";
+import galgadut from "../../Assets/Projects/galgadut.png";
 
 function Projects() {
   return (
@@ -24,62 +23,47 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={taskmaster}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Meraih Mimpi Android App"
+              description="This is the Meraih Mimpi Mobile App. This is an android application to record every dream that we will achieve. With this application, it will easier to find out the dreams that we will achieve soon."
+              link="https://s.id/MeraihMimpiRepo"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={meraihMimpi}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Meraih Mimpi Android App"
+              description="This is the Meraih Mimpi Mobile App. This is an android application to record every dream that we will achieve. With this application, it will easier to find out the dreams that we will achieve soon."
+              link="https://s.id/MeraihMimpiRepo"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={mbolang}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Mbolang Web Design"
+              description="This is Mbolang Web Design. Mbolang is a travel guide website that provides information and guides about a destination. You can review a destination or write a guide that can help other travelers."
+              link="https://s.id/MbolangProto"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={covid}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Cov-ID Mobile App"
+              description="This is the Cov-ID Mobile App. This application showing the data of covid 19 cases in Indonesia and in the Indonesian province. I used the public API provided by kawalcovid19.id."
+              link="https://galihif.github.io/covid-app"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={galgadut}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Galgadut Portfolio Web"
+              description="This is the Galgadut portfolio website. I create this project while I am learning front-end web development in @sandhikagalih 's youtube channel. In his video, he taught me to make a personal portfolio website using CSS framework materialize"
+              link="https://galihif.github.io/galgadut"
             />
           </Col>
         </Row>
