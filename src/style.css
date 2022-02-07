@@ -139,7 +139,7 @@ html {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #010124 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -397,7 +397,7 @@ html {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: #010124a8;
+  background-color: #010124;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
