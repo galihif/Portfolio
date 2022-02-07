@@ -554,7 +554,7 @@ html {
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px #060635 !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -568,7 +568,7 @@ html {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid white !important;
 }
 .tech-icon-images {
   padding: 20px !important;
