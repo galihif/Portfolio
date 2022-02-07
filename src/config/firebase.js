@@ -10,7 +10,7 @@ const firebaseConfig = {
     projectId: "gif-tech",
     storageBucket: "gif-tech.appspot.com",
     messagingSenderId: "26255106893",
-    appId: "1:26255106893:web:176a500ecb0c1637d94d04"
+    appId: "1:26255106893:web:7169e61b16d4940fd94d04"
 };
 
 // Initialize Firebase
