@@ -58,7 +58,6 @@ const Projects = () => {
                         description={project.desc}
                         link={project.link}
                       />
-                      <p>sdasd</p>
                     </Col>
                   )
                 })
