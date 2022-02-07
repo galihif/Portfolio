@@ -24,7 +24,7 @@ function Home() {
 
               <h1 className="heading-name">
                 Welcome To
-                <strong className=""> GIF </strong>
+                <strong className=""> GIF Technologies </strong>
               </h1>
 
               {/* <div style={{ padding: 50, textAlign: "left" }}>
