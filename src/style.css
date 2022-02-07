@@ -72,7 +72,7 @@ html {
 .sticky {
   background-color: #01012485 !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px #0101243f !important;
+  box-shadow: 0px 10px 10px 0px #0101246e !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -139,7 +139,7 @@ html {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #010124 !important;
+    background-color: #181a27 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
